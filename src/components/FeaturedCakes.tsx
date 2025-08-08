@@ -1,38 +1,56 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
+import cake1 from "@/assets/cakes/cake1.jpg";
+import cake2 from "@/assets/cakes/cake2.jpg";
+import cake3 from "@/assets/cakes/cake3.jpg";
+import cake4 from "@/assets/cakes/cake4.jpg";
+import cake5 from "@/assets/cakes/cake5.jpg";
+import cake6 from "@/assets/cakes/cake6.jpg";
+import cake7 from "@/assets/cakes/cake7.jpg";
+import cake8 from "@/assets/cakes/cake8.jpg";
 
 const FeaturedCakes = () => {
   const cakes = [
     {
       name: "Classic Vanilla Wedding Cake",
       description: "Three-layer vanilla sponge with buttercream roses",
-      imageUrl: "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake1
     },
     {
       name: "Chocolate Decadence",
       description: "Rich chocolate cake with ganache and fresh berries",
-      imageUrl: "https://images.unsplash.com/photo-1505253758473-96b7015fcd8b?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake2
     },
     {
       name: "Red Velvet Romance",
       description: "Moist red velvet with cream cheese frosting",
-      imageUrl: "https://images.unsplash.com/photo-1612203997213-6d1be0e5b114?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake3
     },
     {
       name: "Lemon Berry Delight",
       description: "Light lemon cake with fresh berry compote",
-      imageUrl: "https://images.unsplash.com/photo-1559628233-cae09fed37f3?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake4
     },
     {
       name: "Tiramisu Tower",
       description: "Coffee-soaked layers with mascarpone cream",
-      imageUrl: "https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake5
     },
     {
       name: "Seasonal Fruit Tart",
       description: "Buttery crust with pastry cream and seasonal fruits",
-      imageUrl: "https://images.unsplash.com/photo-1509475826633-fed577a2c71b?auto=format&fit=crop&w=800&q=80"
+      imageUrl: cake6
+    },
+    {
+      name: "Black Forest Classic",
+      description: "Chocolate layers, whipped cream and cherries",
+      imageUrl: cake7
+    },
+    {
+      name: "Fresh Mango Mousse",
+      description: "Silky mango mousse on a soft vanilla sponge",
+      imageUrl: cake8
     }
   ];
 
@@ -57,6 +75,10 @@ const FeaturedCakes = () => {
                   alt={`${cake.name} - ${cake.description}`}
                   loading="lazy"
                   className="w-full h-48 object-cover rounded-lg mb-4"
+                  onError={(e) => {
+                    e.currentTarget.src = "/placeholder.svg";
+                    e.currentTarget.onerror = null;
+                  }}
                 />
                 <h3 className="text-xl font-semibold text-primary mb-3">{cake.name}</h3>
                 <p className="text-muted-foreground mb-2 leading-relaxed">{cake.description}</p>
