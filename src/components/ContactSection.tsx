@@ -20,7 +20,7 @@ const ContactSection = () => {
             <div className="bg-primary text-primary-foreground rounded-2xl p-8 shadow-golden mb-8">
               <Phone className="h-8 w-8 mx-auto lg:mx-0 mb-4" />
               <h3 className="text-2xl font-bold mb-2">Call to Order</h3>
-              <p className="text-3xl font-bold mb-2">(555) 123-CAKE</p>
+              <p className="text-3xl font-bold mb-2"><a href="tel:+918722100824" className="underline-offset-2 hover:underline">8722100824</a></p>
               <p className="opacity-90">Speak directly with our bakers</p>
             </div>
 
@@ -57,9 +57,8 @@ const ContactSection = () => {
                 <MapPin className="h-8 w-8 text-accent mx-auto mb-4" />
                 <h4 className="font-semibold text-primary mb-2">Location</h4>
                 <div className="text-sm text-muted-foreground space-y-1">
-                  <p>123 Baker Street</p>
-                  <p>Sweet Valley, SV 12345</p>
-                  <p>Downtown District</p>
+                  <p>Reshon Complex, Main Road Belman</p>
+                  <p>Karkala Tq., Udupi Dist - 576111</p>
                 </div>
               </CardContent>
             </Card>
@@ -82,6 +81,7 @@ const ContactSection = () => {
                 <Button 
                   className="bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300 hover:scale-105"
                   size="sm"
+                  onClick={() => (window.location.href='tel:+918722100824')}
                 >
                   Call Now
                 </Button>

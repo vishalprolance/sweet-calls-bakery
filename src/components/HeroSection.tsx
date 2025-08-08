@@ -16,9 +16,9 @@ const HeroSection = () => {
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
-          Sweet Moments
+          Bangalore Iyengar Bakery
           <span className="block text-4xl md:text-5xl font-light text-soft-rose">
-            Artisan Bakery
+            Pure & Fresh
           </span>
         </h1>
         
@@ -31,9 +31,10 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-golden text-lg px-8 py-6 rounded-xl font-semibold transition-all duration-300 hover:scale-105"
+            onClick={() => (window.location.href='tel:+918722100824')}
           >
             <Phone className="mr-2 h-5 w-5" />
-            Call to Order: (555) 123-CAKE
+            Call to Order: 8722100824
           </Button>
           
           <Button 

@@ -8,48 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 42 100% 97%;
-    --foreground: 25 40% 15%;
+    --background: 0 0% 100%;
+    --foreground: 230 50% 20%;
 
-    --card: 42 100% 98%;
-    --card-foreground: 25 40% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 230 50% 20%;
 
-    --popover: 42 100% 98%;
-    --popover-foreground: 25 40% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 50% 20%;
 
-    --primary: 25 65% 35%;
-    --primary-foreground: 42 100% 97%;
+    --primary: 330 85% 54%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 340 35% 85%;
-    --secondary-foreground: 25 40% 15%;
+    --secondary: 230 60% 24%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 42 50% 92%;
-    --muted-foreground: 25 25% 45%;
+    --muted: 230 20% 96%;
+    --muted-foreground: 230 15% 40%;
 
-    --accent: 340 50% 75%;
-    --accent-foreground: 25 40% 15%;
+    --accent: 12 85% 52%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 42 30% 88%;
-    --input: 42 30% 90%;
-    --ring: 25 65% 35%;
+    --border: 230 25% 88%;
+    --input: 230 20% 92%;
+    --ring: 330 85% 54%;
 
     /* Bakery-specific design tokens */
-    --warm-cream: 42 100% 95%;
-    --golden-brown: 35 45% 45%;
-    --soft-rose: 340 35% 75%;
-    --rich-brown: 25 65% 35%;
+    --warm-cream: 330 100% 98%;
+    --golden-brown: 50 90% 55%;
+    --soft-rose: 330 60% 80%;
+    --rich-brown: 230 60% 24%;
     
     /* Gradients */
-    --gradient-warm: linear-gradient(135deg, hsl(42 100% 95%), hsl(35 60% 90%));
-    --gradient-golden: linear-gradient(135deg, hsl(35 45% 45%), hsl(25 65% 35%));
-    --gradient-hero: linear-gradient(135deg, hsl(42 100% 97%) 0%, hsl(340 35% 90%) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(330 100% 98%), hsl(330 85% 95%));
+    --gradient-golden: linear-gradient(135deg, hsl(330 85% 54%), hsl(230 60% 24%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100% / 0), hsl(330 85% 54% / 0.35));
     
     /* Shadows */
-    --shadow-warm: 0 4px 20px hsl(25 65% 35% / 0.1);
-    --shadow-golden: 0 8px 30px hsl(35 45% 45% / 0.15);
+    --shadow-warm: 0 4px 20px hsl(330 85% 54% / 0.15);
+    --shadow-golden: 0 8px 30px hsl(12 85% 52% / 0.2);
 
     --radius: 0.5rem;
 

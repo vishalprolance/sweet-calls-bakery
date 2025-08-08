@@ -13,7 +13,7 @@ const AboutSection = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                For over three decades, Sweet Moments Artisan Bakery has been creating 
+                For over three decades, Bangalore Iyengar Bakery has been creating 
                 unforgettable cakes that turn ordinary moments into cherished memories. 
                 Our journey began with a simple dream: to bring the warmth and joy of 
                 homemade baking to our community.
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </div>
           
           <div className="bg-gradient-warm rounded-2xl p-8 shadow-warm">
-            <h3 className="text-2xl font-bold text-primary mb-6">Why Choose Sweet Moments?</h3>
+            <h3 className="text-2xl font-bold text-primary mb-6">Why Choose Bangalore Iyengar Bakery?</h3>
             
             <div className="space-y-4">
               <div className="flex items-start space-x-3">

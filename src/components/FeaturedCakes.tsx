@@ -7,32 +7,32 @@ const FeaturedCakes = () => {
     {
       name: "Classic Vanilla Wedding Cake",
       description: "Three-layer vanilla sponge with buttercream roses",
-      price: "Starting at $85"
+      imageUrl: "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Chocolate Decadence",
       description: "Rich chocolate cake with ganache and fresh berries",
-      price: "Starting at $65"
+      imageUrl: "https://images.unsplash.com/photo-1505253758473-96b7015fcd8b?auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Red Velvet Romance",
       description: "Moist red velvet with cream cheese frosting",
-      price: "Starting at $70"
+      imageUrl: "https://images.unsplash.com/photo-1612203997213-6d1be0e5b114?auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Lemon Berry Delight",
       description: "Light lemon cake with fresh berry compote",
-      price: "Starting at $60"
+      imageUrl: "https://images.unsplash.com/photo-1559628233-cae09fed37f3?auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Tiramisu Tower",
       description: "Coffee-soaked layers with mascarpone cream",
-      price: "Starting at $75"
+      imageUrl: "https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Seasonal Fruit Tart",
       description: "Buttery crust with pastry cream and seasonal fruits",
-      price: "Starting at $45"
+      imageUrl: "https://images.unsplash.com/photo-1509475826633-fed577a2c71b?auto=format&fit=crop&w=800&q=80"
     }
   ];
 
@@ -52,9 +52,14 @@ const FeaturedCakes = () => {
           {cakes.map((cake, index) => (
             <Card key={index} className="bg-card border-0 shadow-warm hover:shadow-golden transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
+                <img
+                  src={cake.imageUrl}
+                  alt={`${cake.name} - ${cake.description}`}
+                  loading="lazy"
+                  className="w-full h-48 object-cover rounded-lg mb-4"
+                />
                 <h3 className="text-xl font-semibold text-primary mb-3">{cake.name}</h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">{cake.description}</p>
-                <p className="text-lg font-bold text-accent">{cake.price}</p>
+                <p className="text-muted-foreground mb-2 leading-relaxed">{cake.description}</p>
               </CardContent>
             </Card>
           ))}
@@ -63,7 +68,7 @@ const FeaturedCakes = () => {
         <div className="text-center">
           <Button 
             size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-golden text-lg px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-golden text-lg px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105" onClick={() => (window.location.href='tel:+918722100824')}
           >
             <Phone className="mr-2 h-5 w-5" />
             Call to Order Your Custom Cake

@@ -5,7 +5,7 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "Sarah M.",
-      text: "Sweet Moments created the most beautiful wedding cake for us! Not only was it stunning, but it tasted absolutely divine. Our guests are still talking about it months later.",
+      text: "Bangalore Iyengar Bakery created the most beautiful wedding cake for us! Not only was it stunning, but it tasted absolutely divine. Our guests are still talking about it months later.",
       rating: 5
     },
     {
@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
             Sweet Reviews
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it - hear what our customers say about their Sweet Moments experience
+            Don't just take our word for it - hear what our customers say about their Bangalore Iyengar Bakery experience
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const TestimonialsSection = () => {
 
         <div className="text-center mt-12">
           <p className="text-lg text-muted-foreground">
-            Join hundreds of satisfied customers who trust Sweet Moments for their special occasions
+            Join hundreds of satisfied customers who trust Bangalore Iyengar Bakery for their special occasions
           </p>
         </div>
       </div>

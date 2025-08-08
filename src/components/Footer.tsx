@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-4">Sweet Moments</h3>
+            <h3 className="text-2xl font-bold mb-4">Bangalore Iyengar Bakery</h3>
             <p className="opacity-90 leading-relaxed">
               Creating sweet memories with handcrafted cakes and pastries since 1985. 
               Every cake tells a story, and we're honored to be part of yours.
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center justify-center md:justify-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>(555) 123-CAKE</span>
+                <span><a href="tel:+918722100824">8722100824</a></span>
               </div>
               <div className="flex items-center justify-center md:justify-center">
                 <Mail className="h-4 w-4 mr-2" />
@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center md:justify-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span>123 Baker Street, Sweet Valley</span>
+                <span>Reshon Complex, Main Road Belman, Karkala Tq., Udupi 576111</span>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="opacity-75">
-            © 2024 Sweet Moments Artisan Bakery. All rights reserved. Made with ❤️ and lots of flour.
+            © 2024 Bangalore Iyengar Bakery. All rights reserved. Made with ❤️ and lots of flour.
           </p>
         </div>
       </div>
