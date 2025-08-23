@@ -9,6 +9,12 @@ import cake5 from "@/assets/cakes/cake5.jpg";
 import cake6 from "@/assets/cakes/cake6.jpg";
 import cake7 from "@/assets/cakes/cake7.jpg";
 import cake8 from "@/assets/cakes/cake8.jpg";
+import cake9 from "@/assets/cakes/cake9.jpg";
+import cake10 from "@/assets/cakes/cake10.jpg";
+import cake11 from "@/assets/cakes/cake11.jpg";
+import cake12 from "@/assets/cakes/cake12.jpg";
+import cake13 from "@/assets/cakes/cake13.jpg";
+import cake14 from "@/assets/cakes/cake14.jpg";
 
 const FeaturedCakes = () => {
   const cakes = [
@@ -51,6 +57,36 @@ const FeaturedCakes = () => {
       name: "Fresh Mango Mousse",
       description: "Silky mango mousse on a soft vanilla sponge",
       imageUrl: cake8
+    },
+    {
+      name: "Red Velvet Delight",
+      description: "Classic red velvet with rich cream cheese frosting",
+      imageUrl: cake9
+    },
+    {
+      name: "Cartoon Animal Photo Cake",
+      description: "Fun themed cake perfect for children's celebrations",
+      imageUrl: cake10
+    },
+    {
+      name: "Princess Doll Cake",
+      description: "Beautiful doll cake that's every little girl's dream",
+      imageUrl: cake11
+    },
+    {
+      name: "JCB Theme Photo Cake",
+      description: "Construction vehicle themed cake for young builders",
+      imageUrl: cake12
+    },
+    {
+      name: "Heart Shape Red Velvet",
+      description: "Romantic heart-shaped red velvet for special occasions",
+      imageUrl: cake13
+    },
+    {
+      name: "Fresh Strawberry Cake",
+      description: "Light sponge topped with fresh strawberries and cream",
+      imageUrl: cake14
     }
   ];
 
