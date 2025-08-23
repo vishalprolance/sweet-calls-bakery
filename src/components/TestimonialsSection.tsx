@@ -4,7 +4,7 @@ import { Star } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Nikhitha T",
+      name: "Nikhitha",
       text: "Bangalore Iyengar Bakery created the most beautiful wedding cake for us! Not only was it stunning, but it tasted absolutely divine. Our guests are still talking about it months later.",
       rating: 5
     },
