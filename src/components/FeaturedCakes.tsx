@@ -19,9 +19,9 @@ import cake14 from "@/assets/cakes/cake14.jpg";
 const FeaturedCakes = () => {
   const cakes = [
     {
-      name: "Classic Chocolate Wedding Cake",
-      description: "Rich chocolate cake with ganache and fresh berries",
-      imageUrl: cake2
+      name: "Classic Vanilla Wedding Cake",
+      description: "Three-layer vanilla sponge with buttercream roses",
+      imageUrl: cake1
     },
     {
       name: "Chocolate Decadence",
