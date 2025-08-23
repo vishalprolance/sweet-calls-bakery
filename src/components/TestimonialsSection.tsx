@@ -4,17 +4,17 @@ import { Star } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Sarah M.",
+      name: "Nikhitha T",
       text: "Bangalore Iyengar Bakery created the most beautiful wedding cake for us! Not only was it stunning, but it tasted absolutely divine. Our guests are still talking about it months later.",
       rating: 5
     },
     {
-      name: "Mike R.",
+      name: "Vishal",
       text: "I've been ordering birthday cakes for my family here for years. The quality is consistently amazing, and they always nail the custom designs we request.",
       rating: 5
     },
     {
-      name: "Emily K.",
+      name: "Rakshith",
       text: "Last minute cake emergency and they saved the day! Called at 10am and had a gorgeous custom cake ready by 3pm. Incredible service and even better taste!",
       rating: 5
     }
