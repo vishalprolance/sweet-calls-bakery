@@ -24,19 +24,9 @@ const FeaturedCakes = () => {
       imageUrl: cake1
     },
     {
-      name: "Chocolate Decadence",
-      description: "Rich chocolate cake with ganache and fresh berries",
-      imageUrl: cake2
-    },
-    {
       name: "Red Velvet Romance",
       description: "Moist red velvet with cream cheese frosting",
       imageUrl: cake3
-    },
-    {
-      name: "Lemon Berry Delight",
-      description: "Light lemon cake with fresh berry compote",
-      imageUrl: cake4
     },
     {
       name: "Tiramisu Tower",
@@ -44,19 +34,9 @@ const FeaturedCakes = () => {
       imageUrl: cake5
     },
     {
-      name: "Seasonal Fruit Tart",
-      description: "Buttery crust with pastry cream and seasonal fruits",
-      imageUrl: cake6
-    },
-    {
       name: "Black Forest Classic",
       description: "Chocolate layers, whipped cream and cherries",
       imageUrl: cake7
-    },
-    {
-      name: "Fresh Mango Mousse",
-      description: "Silky mango mousse on a soft vanilla sponge",
-      imageUrl: cake8
     },
     {
       name: "Red Velvet Delight",
