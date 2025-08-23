@@ -68,7 +68,7 @@ const ContactSection = () => {
                 <Mail className="h-8 w-8 text-accent mx-auto mb-4" />
                 <h4 className="font-semibold text-primary mb-2">Email</h4>
                 <div className="text-sm text-muted-foreground">
-                  <p>orders@sweetmoments.bakery</p>
+                  <p>madanveera2020@gmail.com</p>
                   <p className="text-xs mt-1">For special requests</p>
                 </div>
               </CardContent>
