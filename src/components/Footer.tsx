@@ -1,8 +1,6 @@
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center md:text-left">
@@ -22,7 +20,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center md:justify-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>orders@sweetmoments.bakery</span>
+                <span>madanveera2020@gmail.com</span>
               </div>
               <div className="flex items-center justify-center md:justify-center">
                 <MapPin className="h-4 w-4 mr-2" />
@@ -50,8 +48,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
